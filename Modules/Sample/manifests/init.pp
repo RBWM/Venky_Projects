@@ -44,7 +44,7 @@
 #
 class Sample {
 
-notify {welcome to the modules:}
+notify { 'welcome to the modules':}
 
 
 }
