@@ -44,5 +44,7 @@
 #
 class Sample {
 
+notify {welcome to the modules:}
+
 
 }
