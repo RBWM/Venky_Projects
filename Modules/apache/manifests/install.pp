@@ -1,4 +1,4 @@
 class apache:install {
-notify { 'this is install proces': }
+notify { 'this is install proces' : }
 
 }
