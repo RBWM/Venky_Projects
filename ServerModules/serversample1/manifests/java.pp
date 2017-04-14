@@ -1,9 +1,11 @@
 # Class: 
 #
 #
-class serversample1::java{
+class serversample1::java(
+    $pack_name = ' ',
+){
 
-  package {'apache2':
+  package { $pack_name:
   ensure => installed,
   }
 }
