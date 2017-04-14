@@ -44,6 +44,8 @@
 #
 class serversample1 {
 
-    notify { 'this is the first server_sample' :}
+    notify { 'installing java' :}
+
+    include serversample1::java
 
 }
