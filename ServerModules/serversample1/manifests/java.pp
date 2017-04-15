@@ -2,7 +2,7 @@
 #
 #
 class serversample1::java(
-    $pack_name = 'apache2'
+    $pack_name = ''
 ){
 
   package { $pack_name:
