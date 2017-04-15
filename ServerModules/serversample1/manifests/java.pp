@@ -8,6 +8,10 @@ class serversample1::java(
   package { $pack_name:
   ensure => installed,
   }
+  service {$pack_name:
+  ensure => running,
+  enable => true
+  }
 }
     
     
